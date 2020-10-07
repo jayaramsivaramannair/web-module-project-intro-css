@@ -1,0 +1,140 @@
+/* CSS RESET */
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 1080px; /*This will make the entire container responsive*/
+    margin: 0 auto;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER NAVIGATION AND FOOTER NAVIGATION */
+nav {
+    margin: 30px 0px;
+}
+.btns {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button {
+    font-size: 12px;
+    width: 6rem;
+    animation-duration: 2s;
+    padding: 5px 15px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    animation: heartBeat;
+    animation-duration: 3s;
+}
+
+.btn-1 {
+    background-color: #FF764E;
+}
+
+.btn-2 {
+    background-color: #5ED3EB;
+}
+
+.btn-3 {
+    background-color: #FFCD69;
+}
+
+/* HEADER */
+
+.main-header {
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-header img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-header h1{
+    margin-bottom: 20px;
+    font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+    font-size: 3.0rem;
+    font-weight: normal;
+}
+
+.sub-header p {
+    margin-bottom: 20px;
+}
+
+.sub-header .second-para {
+    width: 45%;
+}
+
+/* SECTIONS */
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section img {
+    width: 7.5%;
+    height: 7.5%;
+}
+
+.section-1 {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #DDB9A3;
+    color: white;
+}
+
+.section-1 p {
+    text-align: justify;
+    
+}
+
+.section-2, .section-3 {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.section-2 img, .section-3 img {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.section-4 {
+    width: 100%;
+    height: 30vh;
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #F9E7DC;
+}
